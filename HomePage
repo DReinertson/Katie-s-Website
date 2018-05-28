@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+.navbar{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6vw;
+  }
+#home, #about, #books, #readings, #contact{
+  flex-grow: 2;
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+#name{
+  display: flex;
+}
+</style>
+</head>
+<body>
+<div class = 'navbar' id = 'navbar'>
+  <div class = 'navbar-item' id = 'name'>Katie</div>
+  <a href = "#" class = 'navbar-item' id = 'home'>Home</a>
+  <a href = "#" class = 'navbar-item' id = 'about'>About</a>
+  <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
+  <a href = "#" class = 'navbar-item' id = 'readings'>Readings</a>
+  <a href = "#" class = 'navbar-item' id = 'contact'>Contact</a>
+  <a href = "#" class = 'navbar-item' id = 'social-media'>
+    <a href = "#" class = 'social-media' id = 'facebook'>FB</a>
+    <a href = "#" class = 'social-media' id = 'instagram'>INSTA</a>
+  </a>
+</div>
+</body>
+</html>
