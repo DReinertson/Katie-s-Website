@@ -25,39 +25,39 @@ body{
 #inner{
   background-color: yellow;
   display: flex;
+  width: 100vw;
+  height: 80%;
 }
 #reader-board{
-  width: 25vw;
+  flex-grow: 2;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  background-color: green;
 }
 #reader-books{
-  background-color: black;
-  width: 90%;
-  height: 50vh;
+  background-color: red;
+  width: 100%;
+  height: 50%;
 }
 #reader-upcoming{
-  background-color: white;
-  width: 90%;
-  height: 20vh;
+  background-color: purple;
+  width: 100%;
+  height: 25%;
 }
 #latest{
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 50vw;
-  height: 60vw;
+  width: 60vh;
+  height: 90vh;
   background-color: green;
-  border: solid 2px blue;
 }
 
 #latest-book{
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 #inner-author{
-  width: 25vw;
+  flex-grow: 2;
   background-color: blue;
 }
 a:link{
