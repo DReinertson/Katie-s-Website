@@ -1,39 +1,101 @@
 <html>
 <head>
 <style>
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .navbar{
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 6vw;
+  height: 6vh;
+  width: 100vw;
   }
 #home, #about, #books, #readings, #contact{
   flex-grow: 2;
+}
+#name{
+  flex-grow: 5;
+}
+
+#inner{
+  background-color: yellow;
+  display: flex;
+}
+#reader-board{
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+#reader-books{
+  background-color: black;
+  width: 90%;
+  height: 50vh;
+}
+#reader-upcoming{
+  background-color: white;
+  width: 90%;
+  height: 20vh;
+}
+#latest{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 60vw;
+  background-color: green;
+  border: solid 2px blue;
+}
+
+#latest-book{
+  width: 100%;
+  height: 100%;
+}
+#inner-author{
+  width: 25vw;
+  background-color: blue;
 }
 a:link{
   text-decoration: none;
   color: white;
 }
-
-#name{
+#social-media{
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 </style>
 </head>
 <body>
 <div class = 'navbar' id = 'navbar'>
-  <div class = 'navbar-item' id = 'name'>Katie</div>
-  <a href = "#" class = 'navbar-item' id = 'home'>Home</a>
+  <a href = '#' class = 'navbar-item' id = 'name'>Katie Parks</a>
   <a href = "#" class = 'navbar-item' id = 'about'>About</a>
   <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
   <a href = "#" class = 'navbar-item' id = 'readings'>Readings</a>
   <a href = "#" class = 'navbar-item' id = 'contact'>Contact</a>
-  <a href = "#" class = 'navbar-item' id = 'social-media'>
+  <div href = "#" class = 'navbar-item' id = 'social-media'>
     <a href = "#" class = 'social-media' id = 'facebook'>FB</a>
     <a href = "#" class = 'social-media' id = 'instagram'>INSTA</a>
-  </a>
+  </div>
+</div>
+<div class = 'inner' id = 'inner'>
+  <div class = 'reader-board' id = 'reader-board'>
+    <div class = 'reader-item' id = 'reader-books'></div>
+    <div class = 'reader-item' id = 'reader-upcoming'></div>
+  </div>
+  <div class = 'latest' id = 'latest'>
+    <img id = 'latest-book' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'Latest Book'>
+  </div>
+  <div class = 'inner-author' id = 'inner-author'>
+    <div class = 'author-item' id = 'katie-picture'>pic</div>
+    <div class = 'author-item' id = 'lead-magnet'></div>
+  </div>
+  
 </div>
 </body>
 </html>
