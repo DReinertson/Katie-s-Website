@@ -5,6 +5,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 0;
 }
 .navbar{
   background-color: black;
@@ -55,19 +56,29 @@ body{
 }
 
 #latest-book{
-  width: 100%;
-  height: 90%;
+  width: 90%;
+  height: 70%;
 }
 #inner-author{
   display: flex;
   flex-direction: column;
   flex: 2 1 30%;
   background-color: blue;
+  align-items: center;
 }
 #katie-picture{
-  width: 30%;
-  height: 40%;
+  align-self: center;
+  margin-top: 10%;
+  width: 20vh;
+  height: 20vh;
   border: solid 5px black;
+}
+#katie-intro{
+  background-color: white;
+}
+#read-more{
+  color: blue;
+  text-decoration: underline;
 }
 a:link{
   text-decoration: none;
@@ -111,6 +122,8 @@ a:link{
   </div>
   <div class = 'inner-author' id = 'inner-author'>
     <div class = 'author-item' id = 'katie-picture'>pic</div>
+    <div class = 'author-item' id = 'katie-intro'>Let's say something brief about Katie that will lead into <a href = "#" class = 'author-item' id = 'read-more'>read more</a>
+    </div>
     <div class = 'author-item' id = 'lead-magnet'></div>
   </div>
   
