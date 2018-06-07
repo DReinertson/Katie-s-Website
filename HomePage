@@ -7,6 +7,9 @@ body{
   align-items: center;
   margin-top: 0;
 }
+li{
+  list-style-type: none;
+}
 .navbar{
   background-color: black;
   color: white;
@@ -43,6 +46,8 @@ body{
 }
 
 #reader-upcoming{
+  display: flex;
+  justify-content: flex-end;
   background-color: purple;
   width: 100%;
   height: 25%;
@@ -105,13 +110,17 @@ a:link{
 </div>
 <div class = 'inner' id = 'inner'>
   <div class = 'reader-board' id = 'reader-board'>
-    <div class = 'reader-item' id = 'reader-books'>       <ul>
+    <div class = 'reader-item' id = 'reader-books'>                   <ul>
         <li>Book 1</li>
+        <li><br></li>
+        <li><br></li>
+        <li><br></li>
         <li>Book 2</li>
       </ul>
     </div>
     <div class = 'reader-item' id = 'reader-upcoming'>
-      <ul>
+      <ul><u>Upcoming Events:</u>
+        <li><br></li>
         <li>Upcoming event, like a reading</li>
         <li>Maybe talk about something else</li>
       </ul>
