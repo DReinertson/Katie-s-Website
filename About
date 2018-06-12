@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  text-transform: lowercase;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.navbar{
+  font-size: 1.5vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6vh;
+  width: 100vw;
+  margin: 0;
+  }
+#home, #about, #books, #readings, #contact{
+  flex-grow: 2;
+}
+#name{
+  margin-left: 1%;
+  flex-grow: 4;
+}
+#social-media{
+  display: flex;
+  justify-content: space-evenly;
+  width: 3%;
+  margin-right: 1%;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:active{
+  color: lightBlue;
+}
+
+#about-main{
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  height: 100%;
+}
+img{
+  height: 25vw;
+  width: 35vw;
+}
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class = 'navbar' id = 'navbar'>
+  <a href = '#' class = 'navbar-item' id = 'name'>Kate Lynn</a>
+  <a href = "#" class = 'navbar-item' id = 'about'>About</a>
+  <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
+  <a href = "#" class = 'navbar-item' id = 'readings'>Blog</a>
+  <a href = "#" class = 'navbar-item' id = 'contact'>Contact</a>
+  <div href = "#" class = 'navbar-item' id = 'social-media'>
+    <a href = "#" class = 'fa fa-instagram social-media' id = 'instagram'></a>
+  </div>
+</div>
+<div class = "about" id = "about-main">
+  <div class = 'about-picture' id = 'about-picture'>
+    <img src = "https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/1512260_10202097333064150_9090633040053261854_o.jpg?_nc_cat=0&oh=a0212f2be59479d576ca94ac1b4e09e5&oe=5BB00241" alt = "Kate">
+  </div>
+  <div class = "blerb" id = "blerb">
+    <h2>Quick little quip about Kate</h2>
+    <p>Here is where we can start to look into Kate as a person. What are some hobbies (examples? i.e. paiting, drawing...etc)? Maybe talk about family or where she lives/born? We can figure this out, just filler text for now.</p>
+    <h2>Frequently Asked Questions</h2>
+    <p>
+      <b>Where were you born?</b></br>
+      Somewhere in Washington!
+      </br></br>
+      <b>Where do you live now?</b></br>
+      Bainbridge Island
+      </br></br>
+    <b>So on and...</b></br>
+    So forth!
+</br></br>
+    </p>
+    
+  </div>
+</div>
+</body>
+</html>
