@@ -1,5 +1,6 @@
 <html>
 <head>
+<style>
 body{
   text-transform: lowercase;
   font-size: 2vw;
