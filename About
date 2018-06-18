@@ -77,6 +77,15 @@ img{
   width: 90%; 
   height: 25%;
 }
+
+footer{
+  height: 16vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 </style>
 </head>
 <body>
@@ -130,5 +139,9 @@ img{
 </div>
 
 </div>
+
+<footer>
+  <p>Information about myself, maybe some links to other tabs too</p>
+</footer>
 </body>
 </html>
