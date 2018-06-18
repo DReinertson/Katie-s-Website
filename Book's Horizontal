@@ -61,6 +61,15 @@ a:active{
   margin-top: 3%;
   
 }
+footer{
+  height: 16vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 
 </style>
 </head>
@@ -86,5 +95,8 @@ a:active{
     <p>Let's say somethin brief about the book. Since this hasn't been published yet, still in the works, lets see if we can give the audience something to look forward to.<p>
   </div>
 </div>
-</body>
+<footer>
+  <p>Information about myself, maybe some links to other tabs too</p>
+</footer>
+
 </html>
