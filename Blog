@@ -70,6 +70,15 @@ img{
   
 }
 
+footer{
+  height: 16vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 </style>
@@ -105,6 +114,10 @@ img{
   </div>
   
 </div>
+
+<footer>
+  <p>Information about myself, maybe some links to other tabs too</p>
+</footer>
 
 
 </body>
