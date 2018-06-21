@@ -45,13 +45,12 @@ a:active{
 }
 
 .blog-container{
-  width: 75vw;
+  width: 60vw;
   border-right: solid black 3px;
   border-left: solid black 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: green;
   
 }
 .blog-post{
@@ -79,6 +78,10 @@ footer{
   justify-content: center;
 }
 
+p{
+  text-align: justify;
+  padding: 0 2%;
+}
 
 
 </style>
