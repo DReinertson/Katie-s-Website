@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+<style>
+body{
+  text-transform: lowercase;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar{
+  font-size: 3.5vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  margin: 0;
+  }
+#home, #about, #books, #readings, #contact{
+  flex-grow: 2;
+}
+#name{
+  margin-left: 1%;
+  flex-grow: 1.5;
+}
+#social-media{
+  display: flex;
+  justify-content: space-evenly;
+  width: 3%;
+  margin-right: 1%;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:active{
+  color: lightBlue;
+}
+
+.contact-container{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.contact-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4vw 2vw;
+  font-size: 3vw;
+ }
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  text-align: justify;
+}
+
+
+</style>
+</head>
+
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class = 'navbar' id = 'navbar'>
+  <a href = '#' class = 'navbar-item' id = 'name'>Kate Lynn</a>
+  <a href = "#" class = 'navbar-item' id = 'about'>About</a>
+  <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
+  <a href = "#" class = 'navbar-item' id = 'readings'>Blog</a>
+  <a href = "#" class = 'navbar-item' id = 'contact'>Contact</a>
+  <div href = "#" class = 'navbar-item' id = 'social-media'>
+    <a href = "#" class = 'fa fa-instagram social-media' id = 'instagram'></a>
+  </div>
+</div>
+<div class = "contact-container">
+  <div class = "contact-item" id = "contact-info">
+    <p>Instagram: Kate Lynn</p>
+    <p>Social media: Katie Parks</p>
+  </div>
+  <div class = "contact-item" id = "e-mail">
+    <form>
+      E-mail<br>
+      <input type = "text" name = "e-mail"><br>
+      Please write me a message!<br>
+      <textarea name = "message" cols = "25" rows = '15'></textarea>
+    </form>
+  </div>
+  
+    
+  </div>
+</div>
+
+<footer>
+  <p>Information about myself, maybe some links to other tabs too</p>
+</footer>
+
+
+</body>
+</html>
