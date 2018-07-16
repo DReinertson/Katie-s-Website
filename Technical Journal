@@ -1,0 +1,31 @@
+7/13/18
+  -Had meeting with Katie today about the website. Discussed the e-mail I had sent her and made some notes accordingly. 
+  -Decisions: 
+    *Have every page that could be formatted like the blog, formatted like the blog. 
+    *Make navbar items spaced evenly instead of having name isolated and everything else spaced evenly. 
+    *Nothing really on the footer, will include some sort of "made by: darryn reinertson" or something
+    *Have things centered and try to keep things consistent between each page. 
+    *Contact page to have link to insta (that's it currently) and text fields for viewer's e-mail and textfield that will get sent to her e-mail. 
+  -Specifics: 
+    *ALL: 
+         - Flex-grow on navbar down to 1.5 from 4. 
+         - 50vw center instead of 60vw. sides 25vw. 
+
+     About: Center texts within #about-main
+            - off left text (paragraphs). 
+            - flex-grow on navbar down to 1.5 from 4.
+            - remove pictures. 
+
+     Blog : 
+          - Pictures and text have some padding on left and right.
+          - 50vw instead of 60vw. Keep main part the same width across each page. 
+          - Bottom border to solid line instead of dashes
+     Books  :
+          - Put books into blog format, 50vw with 25vw sides. Book on top of text. 
+     Contact:
+          - Same structure, no borders on middle div. 
+          - Instagram tag, "Leave a message", input field for visitors email, input field to send email to Kate. Send button that submits
+  -Next:
+      *Will put together contact section with textfields (will add javascript later that will make areas work). 
+      *Will need to form books section into blog format with pictures above the text
+      *Work on mobile versions of each page. 
