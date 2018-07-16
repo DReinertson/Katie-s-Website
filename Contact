@@ -44,10 +44,13 @@ a:active{
 }
 
 .contact-container{
+  height: 90vw;
   width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
   
 }
 .contact-item{
@@ -60,9 +63,7 @@ a:active{
 
 
 footer{
-  position: absolute;
-  bottom: 0;
-  height: 16vh;
+  height: 10vh;
   width: 100vw;
   background-color: black;
   color: white;
@@ -72,6 +73,10 @@ footer{
 
 p{
   text-align: justify;
+}
+
+input, textarea{
+  width: 40vw;
 }
 
 
