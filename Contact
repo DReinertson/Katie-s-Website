@@ -105,7 +105,7 @@ input, textarea{
       E-mail<br>
       <input type = "text" name = "e-mail"><br>
       Please write me a message!<br>
-      <textarea name = "message" cols = "25" rows = '15'></textarea>
+      <textarea name = "message" rows = '15'></textarea>
     </form>
   </div>
   
@@ -116,7 +116,6 @@ input, textarea{
 <footer>
   <p>Information about myself, maybe some links to other tabs too</p>
 </footer>
-
 
 </body>
 </html>
