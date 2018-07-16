@@ -26,31 +26,30 @@ body{
   flex-grow: 2;
 }
 #name{
-  margin-left: 1%;
-  flex-grow: 4;
+  padding-left: 1.5%;
+  flex-grow: 1.5;
 }
 #social-media{
   display: flex;
   justify-content: space-evenly;
   width: 3%;
-  margin-right: 1%;
+  padding-right: 1.5%;
 }
 
 a:link, a:visited{
   text-decoration: none;
   color: white;
 }
-a:active{
-  color: lightBlue;
-}
+
 
 #section-main{
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vw;
 }
 
 #about-main{
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,6 +58,7 @@ a:active{
   border-left: solid black 2px;
   border-right: solid black 2px;
 }
+
 #about-picture{
   margin-top: 5%;
 }
@@ -73,12 +73,16 @@ img{
   align-items: center;
   justify-content: space-evenly;
 }
+.questions{
+  text-align: left;
+  margin-left: 5%;
+}
 .side-pic{
   width: 90%; 
   height: 25%;
 }
 
-footer{
+.footer{
   height: 16vh;
   width: 100vw;
   background-color: black;
@@ -103,9 +107,9 @@ footer{
 <div class = "section-main" id = "section-main">
   
   <div class = "section" id ="section-left">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
+    <img src = "" alt = "picture" class = "side-pic">
+    <img src = "" alt = "picture" class = "side-pic">
+    <img src = "" alt = "picture" class = "side-pic">
   </div>
   
   <div class = "about" id = "about-main">
@@ -116,7 +120,7 @@ footer{
       <h2>Quick little quip about Kate</h2>
       <p>Here is where we can start to look into Kate as a person. What are some hobbies (examples? i.e. paiting, drawing...etc)? Maybe talk about family or where she lives/born? We can figure this out, just filler text for now.</p>
       <h2>Frequently Asked Questions</h2>
-      <p>
+      <p class = "questions">
         <b>Where were you born?</b></br>
         Somewhere in Washington!
         </br></br>
@@ -132,16 +136,16 @@ footer{
 </div>
 
 <div class = "section" id = "section-right">
-  <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
+  <!--<img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
     <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
+    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">-->
   
 </div>
 
 </div>
 
-<footer>
+  <div class = 'footer' id = 'footer'>
   <p>Information about myself, maybe some links to other tabs too</p>
-</footer>
+</div>
 </body>
 </html>
