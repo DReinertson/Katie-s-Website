@@ -29,3 +29,7 @@
       *Will put together contact section with textfields (will add javascript later that will make areas work). 
       *Will need to form books section into blog format with pictures above the text
       *Work on mobile versions of each page. 
+
+  -Problem: 
+      *Couldn't figure out why footer was acting weird. Currently, when page is much wider than it is tall, footer is taking place in middle of page. This is because the bottom of the main-container is where the footer is, but text and such is bleeding over the boundaries of the container. That's why it appears the footer is taking place in the middle, it's staying at the bottom of the container. Will need to figure out how to adjust the height based upon the text and pictures within?
+      *Can make height in vw's in order to ensure height of container adjusts with width of screen?
