@@ -1,3 +1,13 @@
+7/17/18 : E-mail section
+  -Looked into making an e-mail section properly work in the contact section. 
+  -Sounds like I will have to either base it in a server-side language (PHP or ASP) or use Google scripts <https://github.com/dwyl/html-form-send-email-via-google-script-without-server#how>
+  -Once I figure that out, I will have to make a checking system to ensure security of message to Katie.
+  -Also, may need to implement a way to ensure e-mail actually exists (slow down spam) and maybe add some sort of bot check?
+  **To do:
+      o Will need to figure out how to make submit actually send the e-mail
+      o Make a basic security for textarea
+      o Make a check of the user e-mail to make sure it exists. 
+
 7/13/18
   -Had meeting with Katie today about the website. Discussed the e-mail I had sent her and made some notes accordingly. 
   -Decisions: 
