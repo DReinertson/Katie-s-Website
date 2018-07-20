@@ -1,3 +1,7 @@
+7/20/18 : Contact Page
+  -Working on the page, I think I will have to make everything smaller when the resolution gets higher, the full page looks stretched. Need to just make everything compact and take advatage of the white space.
+      o Too much padding between the social media links at the top. If I remove that padding and move the boxes upwards, make font-size somewhat smaller and reduce the size of the boxes, will seem less stretched. 
+
 7/17/18 : E-mail section
   -Looked into making an e-mail section properly work in the contact section. 
   -Sounds like I will have to either base it in a server-side language (PHP or ASP) or use Google scripts <https://github.com/dwyl/html-form-send-email-via-google-script-without-server#how>
