@@ -1,3 +1,6 @@
+7/21/18 : Re-doing changes 
+  - Didn't like the changes I made originally, will start over and branch it. Will ultimately just try using smaller font and ridding the page of padding in the containers. 
+
 7/20/18 : Contact Page
   -Working on the page, I think I will have to make everything smaller when the resolution gets higher, the full page looks stretched. Need to just make everything compact and take advatage of the white space.
       o Too much padding between the social media links at the top. If I remove that padding and move the boxes upwards, make font-size somewhat smaller and reduce the size of the boxes, will seem less stretched. 
