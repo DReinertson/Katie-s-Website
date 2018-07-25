@@ -2,6 +2,7 @@
   - Made page friendly to larger pages by reducing the size of pretty much everything (pictures, div sizes, font, etc).
   - Looking at making this mobile friendly. Thinking that I could just develop a separate container that is made for mobile (a simplified version of the page) and just use javascript to hide essentially the whole other webpage and show the one speicifically for mobile?
   - Would it be easier to do it that way or just alter the size and structure of everything on the page? I would like to have everything in a single column. Starting with "latest" div, then author div and finally the reader board (Or just upcoming events). (Subscribe at the bottom of the page?)
+  *UPDATE* Wasn't too bad altering current divs. Changed flexbox from into column form instead of row on "inner" div. With nowrap to put into one line. Sizing hasn't been too much of an issue. Just need to work on the reader-board div now. (Latest and author divs pretty much there!)
 
 7/21/18 : Re-doing changes 
   - Didn't like the changes I made originally, will start over and branch it. Will ultimately just try using smaller font and ridding the page of padding in the containers. 
