@@ -1,3 +1,7 @@
+7/25/18 : Mobile Friendly
+  - Made page friendly to larger pages by reducing the size of pretty much everything (pictures, div sizes, font, etc).
+  - Looking at making this mobile friendly. Thinking that I could just develop a separate container that is made for mobile (a simplified version of the page) and just use javascript to hide essentially the whole other webpage and show the one speicifically for mobile?
+
 7/21/18 : Re-doing changes 
   - Didn't like the changes I made originally, will start over and branch it. Will ultimately just try using smaller font and ridding the page of padding in the containers. 
 
