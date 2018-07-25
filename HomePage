@@ -170,16 +170,64 @@ footer{
 }
 
 @media only screen and (max-width: 750px){
+  
   #inner{
     flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100vw;
   }
+  
+  #latest, #inner-author, #reader-board{
+    width: 100%;
+    flex: 1 1 130vw;
+  }
+  
+  #latest{
+    order: 2;
+    justify-content: space-evenly;
+  }
+  #latest-book{
+    width: 45vw;
+    height: 65vw;
+  }
+  #latest > p {
+    width: 45vw;
+    text-align: justify;
+    font-size: 4vw;
+  }
+  #inner-author{
+    order: 3;
+    justify-content: space-evenly;
+  }
+  #katie-picture{
+    width: 45vw;
+    height: 45vw;
+    flex-grow: 0;
+  }
+  #katie-intro, #lead-magnet{
+    width: 45vw;
+    font-size: 3.5vw;
+    text-align: justify;
+  }
+  #reader-board{
+    order: 4;
+  }
+  
+  form{
+    width: 40vw;
+  }
+  #text-field{
+    width: 30vw;
+  }
+  
 }
 </style>
 </head>
 <body>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class = 'navbar' id = 'navbar'>
-  <a href = '#' class = 'navbar-item' id = 'name'>Katie Parks</a>
+  <a href = '#' class = 'navbar-item' id = 'name'>Kate Lynn</a>
   <a href = "#" class = 'navbar-item' id = 'about'>About</a>
   <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
   <a href = "#" class = 'navbar-item' id = 'readings'>Blog</a>
@@ -191,7 +239,7 @@ footer{
 <div class = 'inner' id = 'inner'>
   <div class = 'reader-board' id = 'reader-board'>
     <div class = 'reader-item' id = 'reader-books'>
-        <img id = 'book1' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'book1'>
+        <img id = 'book1' src = 'https://images-na.ssl-images-amazon.com/images/I/410xTDcqhYL._SX326_BO1,204,203,200_.jpg' alt = 'book1'>
       <img id = 'book2' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'book2'>
     </div>
     <div class = 'reader-item' id = 'reader-upcoming'>
@@ -203,21 +251,19 @@ footer{
     </div>
   </div>
   <div class = 'latest' id = 'latest'>
-    <img id = 'latest-book' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'Latest Book'>
-   <p>Here will be a little section about the book, nothing to deep, just a quick sentence or two</p> 
+    <img id = 'latest-book' src = 'https://images-na.ssl-images-amazon.com/images/I/410xTDcqhYL._SX326_BO1,204,203,200_.jpg' alt = 'Latest Book'>
+   <p>This collection of poetry and prose carries you along a personal journey through love, loss, joy, abuse, wonder, femininity and empowerment. This is a story of bravery. A story of becoming amongst the shattering. A story of truth.</p> 
   </div>
   <div class = 'inner-author' id = 'inner-author'>
     <div class = 'author-item' id = 'katie-picture'><img id = "picture" src = "https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/13071790_10206035004623478_121398104870697794_o.jpg?_nc_cat=0&oh=c5d130e844cf57aebb31b757f41c688c&oe=5B7C6761" alt = "Katie"></div>
-    <div class = 'author-item' id = 'katie-intro'>Let's say something brief about Katie that will lead into <a href = "#" class = 'author-item' id = 'read-more'>read more</a>
+    <div class = 'author-item' id = 'katie-intro'>Kate was born in Vancouver, WA and move to Bainbridge Island, WA in *enter year*. She has found a passion in many artistic outlets including paiting, drawing, and writing. More detials here!<a href = "#" class = 'author-item' id = 'read-more'>read more</a>
     </div>
     <div class = 'author-item' id = 'lead-magnet'>
-      <p>Here is where will we put a submit form that will ask for person's e-mail or twitter or something that will give them "exclusive content" from the author. Will look something like this.<br>
-      </p>
       <p>If you would like exclusive content and follow Katie on her progress, subscribe here to the weekly thing. 
         <br>
       <form>
-        <input type = 'text' name = 'e-mail'>
-        <input type = 'submit' value = "Subscribe">
+        <input type = 'text' id = "text-field" name = 'e-mail' size = "30">
+        <input type = 'submit' id = "subscribe" value = "Subscribe">
       </form>
     </div>
   </div>
