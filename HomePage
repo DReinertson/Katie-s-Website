@@ -43,6 +43,7 @@ li{
   display: flex;
   width: 100vw;
   height: 100%;
+  flex-grow: 1;
 }
 #reader-board{
   flex: 2 1 25vw;
@@ -65,7 +66,6 @@ li{
   height: 22.5vw;
   width: 15vw;
   margin: 1vw;
-  border: solid green 2px;
 }
 
 #reader-upcoming{
@@ -93,7 +93,6 @@ li{
 #latest-book{
   width: 25vw;
   height: 35vw;
-  border: solid green 2px;
 }
 #inner-author{
   display: flex;
@@ -130,13 +129,15 @@ a:link{
   text-decoration: none;
   color: white;
 }
-footer{
-  height: 16vh;
+.footer{
   width: 100vw;
   background-color: black;
   color: white;
   display: flex;
   justify-content: center;
+  flex: 0 0 8vh;
+  align-items: center;
+  margin-bottom: -2vh;
 }
 
 @media only screen and (min-width: 1250px){
@@ -221,6 +222,25 @@ footer{
     width: 30vw;
   }
   
+  #reader-board{
+    flex-basis: auto;
+  }
+  #reader-upcoming{
+    width: 45vw;
+    font-size: 3.5vw;
+  }
+  ul{
+    padding-left: 0;
+    font-size: 4vw;
+  }
+  li{
+    font-size: 3.5vw;
+    text-align: justify;
+  }
+  
+  #reader-books{
+    display: none;
+  }
 }
 </style>
 </head>
