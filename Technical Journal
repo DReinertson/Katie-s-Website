@@ -1,3 +1,7 @@
+7/31/18 : Mobile Friendly Cont.
+  - Moved onto about page, making it mobile friendly. 
+  - Have things about where I want it to show Katie. May move div down slightly (Add padding?) removed borders. 
+  - Making container div and item div height  = 100% to make border stay at the bottom, instead of using vh or px. (Can use vw as well, but then have chance of leaving too much space between container and footer)
 7/25/18 : Mobile Friendly
   - Made page friendly to larger pages by reducing the size of pretty much everything (pictures, div sizes, font, etc).
   - Looking at making this mobile friendly. Thinking that I could just develop a separate container that is made for mobile (a simplified version of the page) and just use javascript to hide essentially the whole other webpage and show the one speicifically for mobile?
