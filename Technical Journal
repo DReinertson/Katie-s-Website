@@ -1,7 +1,7 @@
 8/1/18: Mobile friendly Books
   - Put books page into same format as the other pages (blog-like formula, with or without borders)
   - Made media queries for smaller and larger resolutions. 
-  - Still not sure about font being same width as book, may need to make change, will see what katie says about it. 
+  - Still not sure about font being same width as book, may need to make change, will see what katie says about it (Will also need to ask what she would like in terms of font alignment on large resolution). 
   **Next**
       -Blog page: Same thing, media queries and touchups (Make sure navbar and footer are exact same, font-size is same across pages, etc).
 
