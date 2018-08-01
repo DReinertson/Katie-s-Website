@@ -8,7 +8,10 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin-top: 0;
+}
+li{
+  list-style-type: none;
 }
 
 .navbar{
@@ -24,16 +27,28 @@ body{
   }
 #home, #about, #books, #readings, #contact{
   flex-grow: 2;
+  flex-shrink: 2;
 }
 #name{
   margin-left: 1%;
-  flex-grow: 4;
+  flex-grow: 1.5;
 }
 #social-media{
   display: flex;
   justify-content: space-evenly;
   width: 3%;
   margin-right: 1%;
+}
+
+.footer{
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex: 0 0 8vh;
+  align-items: center;
+  margin-bottom: -2vh;
 }
 
 a:link, a:visited{
@@ -45,7 +60,7 @@ a:active{
 }
 
 .blog-container{
-  width: 60vw;
+  width: 50vw;
   border-right: solid black 3px;
   border-left: solid black 3px;
   display: flex;
@@ -57,33 +72,56 @@ a:active{
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 4vw 0;
-  border-bottom: dotted black 3px;
+  padding: 2vw 2vw;
+  border-bottom: solid black 3px;
   
 }
 
 img{
   background-color: gray;
-  width: 50vw;
-  height: 40vw;
+  width: 40vw;
+  height: 30vw;
   
-}
-
-footer{
-  height: 16vh;
-  width: 100vw;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
 }
 
 p{
   text-align: justify;
-  padding: 0 2%;
 }
 
-
+@media only screen and (min-width: 1250px){
+  img{
+    width: 30vw;
+    height: 20vw;
+  }
+  p{
+    font-size: 1.5vw;
+  }
+  h1{
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  .blog-container{
+    width: 100vw;
+  }
+  .blog-post{
+    border: none;
+  }
+  img{
+    width: 70vw;
+    height: 52.5vw;
+  }
+  h1{
+    font-size: 6vw;
+  }
+  p{
+    font-size: 5vw;
+    padding: 2vw 10vw;
+  }
+  .footer p{
+    font-size: 2vw;
+  }
+}
 </style>
 </head>
 <body>
@@ -100,8 +138,8 @@ p{
 </div>
 <div class = "blog-container">
    <div class = 'blog-post' id = 'post-1'>
-     <h2>A generic title for a blog</h2>
-     <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNWLlCzXiibeL6pSY1LgJ4BY_rzwnHSHMY-SMPFPm5_kLp5J973g' alt = 'picture #1'>
+     <h1>A generic title for a blog</h1>
+     <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNWLlCzXiibeL6pSY1LgJ4BY_rzwnHSHMY-SMPFPm5_kLp5J973g' alt = 'picture #1' class = 'one'>
      <p>We'll put some text here to see what it looks like, I want to see how text works with pictures added and how big of a picture I would like to use. How to separate posts from each other and where text lies next to the picture. 
      </p>
   </div>
@@ -118,9 +156,9 @@ p{
   
 </div>
 
-<footer>
+<div class = "footer">
   <p>Information about myself, maybe some links to other tabs too</p>
-</footer>
+</div>
 
 
 </body>
