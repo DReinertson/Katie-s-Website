@@ -1,3 +1,9 @@
+8/1/18: Mobile friendly Blog
+  - Changed a couple sizes on the inbetween resolutions for blog, as well as smaller and larger resolutions. 
+  - Made two different pages for the mobile-blog, one that is full-page and one that is only about 75%. Gonna see which one she likes more (full page looks better to me). 
+  - I believe contact page is already mobile but will check that. If that is complete then the next thing i'll do is JS for all the pages. 
+  
+
 8/1/18: Mobile friendly Books
   - Put books page into same format as the other pages (blog-like formula, with or without borders)
   - Made media queries for smaller and larger resolutions. 
