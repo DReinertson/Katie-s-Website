@@ -8,7 +8,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin-top: 0;
+  flex-wrap: nowrap;
 }
 
 .navbar{
@@ -26,39 +27,54 @@ body{
   flex-grow: 2;
 }
 #name{
-  padding-left: 1.5%;
+  margin-left: 1%;
   flex-grow: 1.5;
 }
 #social-media{
   display: flex;
   justify-content: space-evenly;
   width: 3%;
-  padding-right: 1.5%;
+  margin-right: 1%;
+}
+
+.footer{
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex: 0 0 8vh;
+  align-items: center;
+  margin-bottom: -2vh;
 }
 
 a:link, a:visited{
   text-decoration: none;
   color: white;
 }
-
+a:active{
+  color: lightBlue;
+}
 
 #section-main{
   display: flex;
-  width: 100%;
-  height: 100vw;
+  width: 100vw;
+  height: 84vh;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 #about-main{
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
-  height: 100vh;
+  width: 46vw;
+  height: 100%;
   border-left: solid black 2px;
   border-right: solid black 2px;
+  padding: 0 2vw;
+  text-align: center;
 }
-
 #about-picture{
   margin-top: 5%;
 }
@@ -66,29 +82,51 @@ img{
   height: 25vw;
   width: 35vw;
 }
-.section{
-  flex: 2 1 25vw;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  justify-content: space-evenly;
-}
 .questions{
   text-align: left;
-  margin-left: 5%;
 }
-.side-pic{
-  width: 90%; 
-  height: 25%;
+p{
+  text-align: justify;
 }
-
-.footer{
-  height: 16vh;
-  width: 100vw;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
+@media only screen and (min-width: 1250px){
+  img{
+    height: 20vw;
+    width: 28vw;
+  }
+  
+  p{
+    font-size: 1.8vw;
+  }
+  h2{
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  img{
+    height: 35vw;
+    width: 49vw;
+  }
+  #section-main{
+    height: 100%;
+  }
+  #about-main{
+    height: 100%;
+    border: none;
+  }
+  
+  p{
+    font-size: 4vw;
+  }
+  h2{
+    font-size: 5.5vw;
+  }
+  .footer{
+    flex: 0 1 8vh;
+  }
+  .footer > p{
+    font-size: 2vw;
+    padding: 0 2vw;
+  }
 }
 </style>
 </head>
@@ -105,13 +143,6 @@ img{
   </div>
 </div>
 <div class = "section-main" id = "section-main">
-  
-  <div class = "section" id ="section-left">
-    <img src = "" alt = "picture" class = "side-pic">
-    <img src = "" alt = "picture" class = "side-pic">
-    <img src = "" alt = "picture" class = "side-pic">
-  </div>
-  
   <div class = "about" id = "about-main">
     <div class = 'about-picture' id = 'about-picture'>
       <img src = "https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/1512260_10202097333064150_9090633040053261854_o.jpg?_nc_cat=0&oh=a0212f2be59479d576ca94ac1b4e09e5&oe=5BB00241" alt = "Kate">
@@ -134,18 +165,11 @@ img{
 
     </div>
 </div>
-
-<div class = "section" id = "section-right">
-  <!--<img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">
-    <img src = "https://assets.saatchiart.com/saatchi/997136/art/3848625/2918508-QZRMXEFT-7.jpg" alt = "picture" class = "side-pic">-->
-  
 </div>
-
-</div>
-
-  <div class = 'footer' id = 'footer'>
+<div class = "footer">
   <p>Information about myself, maybe some links to other tabs too</p>
 </div>
+
+
 </body>
 </html>
