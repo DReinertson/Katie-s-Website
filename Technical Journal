@@ -1,6 +1,7 @@
 8/1/18 : Changing media
   - Need to create all of these into files using ATOM to complete everything. Faced the problem of not knowing if codepen was interpretting the sizing incorrectly or not. However, I will need to view it on my phone as well to make sure the sizing is correct, even if there is a mobile viewing add-on in Atom itself. 
   - I suppose I could just start the amazon web services tutorial on hosting a website and start hosting Katie's now and just look at the site on my phone as I make alterations?
+  - Need to also add the viewport tag. 
 
 8/1/18: Mobile friendly Blog
   - Changed a couple sizes on the inbetween resolutions for blog, as well as smaller and larger resolutions. 
