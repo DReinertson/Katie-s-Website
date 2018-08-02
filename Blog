@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{
   text-transform: lowercase;
@@ -117,6 +118,9 @@ p{
   p{
     font-size: 5vw;
     padding: 2vw 10vw;
+  }
+  #navbar{
+    font-size: 2.5vh;
   }
   .footer p{
     font-size: 2vw;
