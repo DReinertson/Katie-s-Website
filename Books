@@ -3,164 +3,162 @@
 <head>
 <style>
   body{
-    text-transform: lowercase;
-    font-size: 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-  }
-  li{
-    list-style-type: none;
-  }
+  text-transform: lowercase;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+li{
+  list-style-type: none;
+}
 
-  .navbar{
-    font-size: 1.5vw;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 6vh;
-    width: 100vw;
-    margin: 0;
-    }
-  #home, #about, #books, #readings, #contact{
-    flex-grow: 2;
+.navbar{
+  font-size: 3.5vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  margin: 0;
   }
-  #name{
-    margin-left: 1%;
-    flex-grow: 4;
-  }
-  #social-media{
-    display: flex;
-    justify-content: space-evenly;
-    width: 3%;
-    margin-right: 1%;
-  }
+#home, #about, #books, #readings, #contact{
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+#name{
+  margin-left: 2vw;
+  flex-grow: 1.5;
+}
+#social-media{
+  display: flex;
+  justify-content: space-evenly;
+  width: 3%;
+  margin-right: 2vw;
+}
 
-  #inner{
-    display: flex;
-    width: 100vw;
-    height: 100%;
-  }
-  #reader-board{
-    flex: 2 1 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  #reader-books{
-    display: flex;
-    flex-direction: column ;
-    justify-content: space-evenly;
-    align-items: flex-end; 
-    width: 100%;
-    height: 70%;
-  }
-  #book1, #book2{
-    height: 45%;
-    width: 60%;
-    margin: 5%;
-  }
+.footer{
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex: 0 0 8vh;
+  align-items: center;
+  margin-bottom: -2vh;
+}
 
-  #reader-upcoming{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 25%;
-  }
-  #latest{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 1px black;
-    width: 50vw;
-    height: 100vh;
-  }
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:active{
+  color: lightBlue;
+}
 
-  #latest-book{
-    width: 80%;
-    height: 75%;
-  }
-  #inner-author{
-    display: flex;
-    flex-direction: column;
-    flex: 2 1 30%;
-    align-items: center;
-  }
-  #katie-picture{
-    align-self: center;
-    margin-top: 10%;
+
+.book-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.book{
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vw;
+}
+.book a {
+  color: blue;
+}
+#book-2{
+  border-bottom: none;
+}
+
+img{
+  background-color: gray;
+  width: 30vw;
+  height: 40vw;
+  
+}
+
+p{
+  text-align: justify;
+}
+
+@media only screen and (min-width: 1250px){
+  img{
     width: 20vw;
-    height: 20vw;
+    height: 30vw;
   }
-  #picture{
-    width: 100%;
-    height: 100%;
-    border-radius: 30%;
+  p{
+    font-size: 1.8vw;
   }
-  #katie-intro{
-    background-color: white;
+  h1{
+    font-size: 3.5vw;
   }
-  #read-more{
-    color: blue;
-    text-decoration: underline;
+}
+
+@media only screen and (max-width: 750px){
+  .navbar{
+    font-size: 3vh;
   }
-  a:link{
-    text-decoration: none;
-    color: white;
+  
+  img{
+    width: 50vw;
+    height: 67vw; 
   }
+  p{
+    font-size: 4vw;
+  }
+  h1{
+    font-size: 5.5vw;
+  }
+  .footer p{
+    font-size: 2vw;
+  }
+}
 </style>
 
 </head>
 
 <body>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <div class = 'navbar' id = 'navbar'>
-    <a href = '#' class = 'navbar-item' id = 'name'>Katie Parks</a>
-    <a href = "#" class = 'navbar-item' id = 'about'>About</a>
-    <a href = "#" class = 'navbar-item' id = 'books'>Books</a>
-    <a href = "#" class = 'navbar-item' id = 'readings'>Blog</a>
-    <a href = "#" class = 'navbar-item' id = 'contact'>Contact</a>
-    <div href = "#" class = 'navbar-item' id = 'social-media'>
-      <a href = "#" class = 'fa fa-instagram social-media' id = 'instagram'></a>
-    </div>
+<div class = 'navbar' id = 'navbar'>
+  <a href = 'https://s.codepen.io/koreanjak/debug/VdmevN/RBrOJNNXBdOM' class = 'navbar-item' id = 'name'>Kate Lynn</a>
+  <a href = "https://s.codepen.io/koreanjak/debug/JBpdML/PBrNWNNnOJeA" class = 'navbar-item' id = 'about'>About</a>
+  <a href = "https://s.codepen.io/koreanjak/debug/rrxvZp/dGrXWddKxOLM" class = 'navbar-item' id = 'books'>Books</a>
+  <a href = "https://s.codepen.io/koreanjak/debug/ZRarxQ/NQAzYqqBmXOr" class = 'navbar-item' id = 'readings'>Blog</a>
+  <a href = "https://s.codepen.io/koreanjak/debug/ajdGaK/XBkGRZZqYDEA" class = 'navbar-item' id = 'contact'>Contact</a>
+  <div href = "#" class = 'navbar-item' id = 'social-media'>
+    <a href = "#" class = 'fa fa-instagram social-media' id = 'instagram'></a>
   </div>
-  <div class = 'inner' id = 'inner'>
-    <div class = 'reader-board' id = 'reader-board'>
-      <div class = 'reader-item' id = 'reader-books'>
-          <img id = 'book1' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'book1'>
-        <img id = 'book2' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'book2'>
-      </div>
-      <div class = 'reader-item' id = 'reader-upcoming'>
-        <ul><u>Upcoming Events:</u>
-          <li><br></li>
-          <li>Reading at a place</li>
-          <li>Reading at a different place</li>
-        </ul>
-      </div>
-    </div>
-    <div class = 'latest' id = 'latest'>
-      <img id = 'latest-book' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'Latest Book'>
-     <p>Here will be a little section about the book, nothing to deep, just a quick sentence or two</p> 
-    </div>
-    <div class = 'inner-author' id = 'inner-author'>
-      <div class = 'author-item' id = 'katie-picture'><img id = "picture" src = "https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/13071790_10206035004623478_121398104870697794_o.jpg?_nc_cat=0&oh=c5d130e844cf57aebb31b757f41c688c&oe=5B7C6761" alt = "Katie"></div>
-      <div class = 'author-item' id = 'katie-intro'>Let's say something brief about Katie that will lead into <a href = "#" class = 'author-item' id = 'read-more'>read more</a>
-      </div>
-      <div class = 'author-item' id = 'lead-magnet'>
-        <p>Here is where will we put a submit form that will ask for person's e-mail or twitter or something that will give them "exclusive content" from the author. Will look something like this.<br>
-        </p>
-        <p>If you would like exclusive content and follow Katie on her progress, subscribe here to the weekly thing. 
-          <br>
-        <form>
-          <input type = 'text' name = 'e-mail'>
-          <input type = 'submit' value = "Subscribe">
-        </form>
-      </div>
-    </div>
+</div>
+<div class = "book-container">
+   <div class = 'book' id = 'book-1'>
+     <h1><u>To love well</u></h1>
+     <img src = 'https://images-na.ssl-images-amazon.com/images/I/410xTDcqhYL._SX326_BO1,204,203,200_.jpg' alt = 'Latest Book'>
+     <p>this collection of poetry and prose carries you along a personal journey through love, loss, joy, abuse, wonder, femininity and empowerment. this is a story of bravery. a story of becoming amongst the shattering. a story of truth. <a href = "#">click here to purchase 'to love well'</a>
+     </p>
+  </div>
+  <div class = 'book' id = 'book-2'>
+    <h1><u>Book #2</u></h1>
+    <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN7DOvkZV9e3a4jSGhKSVOQeD0oOPefUGIAd4tT960s-ka0b5UQ' alt = 'book2'>
+    <p>Putting in some more text, seeing how two book posts look one after another. Really going to drag this out in order to have multiple lines of the page taken up. Trying to cover a lot of the page to see how everything is spaced out, especially once I start getting passed the view-height of the page, i.e. needing to have a scroll bar to continue to look at posts. Will also have to remember that the newest blog post needs to go at the top. <a href = "#" >Click here to purchase 'book #2;</a></p>
+  </div>  
+</div>
 
-  </div>
+<div class = "footer">
+  <p>Information about myself, maybe some links to other tabs too</p>
+</div>
+
 
 </body>
 </html>
