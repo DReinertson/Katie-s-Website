@@ -13,7 +13,7 @@ body{
 }
 
 .navbar{
-  font-size: 3.5vh;
+  font-size: 3vh;
   background-color: black;
   color: white;
   display: flex;
@@ -71,8 +71,6 @@ a:active{
   align-items: center;
   width: 46vw;
   height: 100%;
-  border-left: solid black 2px;
-  border-right: solid black 2px;
   padding: 0 2vw;
   text-align: center;
 }
@@ -102,7 +100,7 @@ p{
     font-size: 2.5vw;
   }
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 992px){
   .navbar{
     font-size: 3vh;
   }
@@ -131,6 +129,24 @@ p{
     font-size: 2vw;
     padding: 0 2vw;
   }
+}
+
+@media only screen and (max-width: 750px){
+  #about-main{
+    width: 94vw;
+  }
+  img{
+    width: 75vw;
+    height: 56vw;
+  }
+  p{
+    font-size: 5vw;
+  }
+  h2{
+    font-size: 6vw;
+  }
+  
+  
 }
 </style>
 </head>
